@@ -43,7 +43,7 @@
         name: 'TopBar',
         data() {
             return {
-                activeIndex2: '1'
+                activeIndex2: ''
             };
         },
         methods: {

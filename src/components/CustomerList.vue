@@ -107,6 +107,9 @@
         components:{leftBar,TopBar},
         data() {
             return {
+                value:{
+
+                },
                 options:[],
                 tableData: [{
                     date: '1',

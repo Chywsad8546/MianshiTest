@@ -17,7 +17,7 @@
                 <el-form-item label="密码:">
                     <el-input v-model="form.name"></el-input>
                 </el-form-item>
-                <el-button style="width: 330px;
+                <el-button @click="login" style="width: 330px;
                            margin-top: 45px; color: rgba(16, 16, 16, 1);
                             font-size: 20px;
                             text-align: center;
@@ -55,6 +55,9 @@
         methods: {
             async logout() {
 
+            },
+            login(){
+                this.$router.push('/CustomerList');
             },
         },
         created() {

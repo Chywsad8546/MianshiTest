@@ -1,0 +1,38 @@
+@bgColor: #ebebeb;
+@yColor: #e6874e;
+@bColor: #4da3c0;
+.shadow () {
+  box-shadow: 0 0 6px 0 #444;
+}
+.pointer () {
+  user-select: none;
+  cursor: pointer;
+}
+.border () {
+  border: 1px solid #cfcfcf;
+}
+.ellipsis () {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap
+}
+.submit-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 26px;
+  color: #fff;
+  background-color: @bColor;
+  border: 1px solid #c3c3c3;
+  border-radius: 6px;
+  font-size: 14px;
+  user-select: none;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  background-color: #67adca;
+}
+.submit-btn:active{
+  background-color: #578ba5;
+}

@@ -1,4 +1,4 @@
-# skin-reader-frontend-admin
+# mianshi-test
 
 ## Project setup
 ```

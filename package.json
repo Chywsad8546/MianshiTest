@@ -13,7 +13,7 @@
     "apollo-client": "^2.5.1",
     "apollo-link": "^1.2.9",
     "apollo-link-http": "^1.5.12",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "echarts": "^4.2.1",
     "element-ui": "^2.6.1",
     "form-making": "^1.2.8",
